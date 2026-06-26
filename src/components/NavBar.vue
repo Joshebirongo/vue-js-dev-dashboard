@@ -14,6 +14,12 @@
             >
                 Projects
             </RouterLink>
+
+             <RouterLink
+                to="/skills"
+            >
+                Skills
+            </RouterLink>
         </div>
     </nav>
 </template>

@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 // Import the pages
 import DashboardView from "../pages/DashboardView.vue";
 import ProjectView from "../pages/ProjectView.vue";
+import SkillsView from "../pages/SkillsView.vue";
 
 const router = createRouter(
     {
@@ -16,6 +17,10 @@ const router = createRouter(
             {
                 path: "/projects",
                 component: ProjectView
+            },
+            {
+                path: "/skills",
+                component: SkillsView
             }
         ]
     }
